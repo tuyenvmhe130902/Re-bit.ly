@@ -1,0 +1,45 @@
+* {
+    box-sizing: inherit;
+}
+:root {
+    --navbar-height: 34px;
+    --header-height: 120px;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Times New Roman', Times, sans-serif;
+} 
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full_width{
+    width: 100%;
+}
+
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.grid_column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 15%;
+}
+
+.grid_column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83%;
+}
+.grid_column-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 19%;
+}

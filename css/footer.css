@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.footer-item-head{
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+.footer-item-body{
+    font-size: 1.3rem;
+    margin: -8px 0;
+}
